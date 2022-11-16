@@ -40,7 +40,7 @@ jobs:
       with:
         app-name: ${{env.AZURE_WEBAPP_NAME}}
         slot-name: 'development'
-        publish-profile: ${{screts.GITHUBACTIONDEMO_WEBAPPDEV_PUBLISH_PROFILE}}
+        publish-profile: ${{secrets.GITHUBACTIONDEMO_WEBAPPDEV_PUBLISH_PROFILE}}
         package: '${{env.AZURE_WEBAPP_PACKAGE_PATH}}/myapp'
     
       
