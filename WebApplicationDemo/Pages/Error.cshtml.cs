@@ -10,7 +10,7 @@ namespace WebApplicationDemo.Pages
     {
         public string? RequestId { get; set; }
         
-        public string token = "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"
+        public string token = ""
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
