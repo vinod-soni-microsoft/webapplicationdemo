@@ -9,6 +9,8 @@ namespace WebApplicationDemo.Pages
     public class ErrorModel : PageModel
     {
         public string? RequestId { get; set; }
+        
+        public string token = "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"
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
