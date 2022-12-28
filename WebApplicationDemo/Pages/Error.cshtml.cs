@@ -10,7 +10,7 @@ namespace WebApplicationDemo.Pages
     {
         public string? RequestId { get; set; }
         
-        public string token = ""
+       
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
